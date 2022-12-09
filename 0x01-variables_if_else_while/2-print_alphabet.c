@@ -8,7 +8,9 @@
 int main()
 {
 	int ch = 'a';
+
 	while (ch <= 'z')
+
 	{
 		putchar(ch);
 		ch++;
