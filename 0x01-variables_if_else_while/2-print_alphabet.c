@@ -1,9 +1,18 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+/**
+ * main -returns alphabets
+ *
+ * Return: Always 0 (Success)
+ */
 int main()
 {
-	char i;
-	prinf("\n\nLower case characters:\n")
-		for(i='a'; i<='z'; i++)
-			return 0;
+	int ch = 'a';
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
