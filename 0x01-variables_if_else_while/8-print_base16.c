@@ -6,8 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-
-int main(void) /*main*/
+int main(void)
 {
 	int num = '0'; /*Initialize num to 0*/
 	char letter = 'a'; /*Initialize letter to a*/
