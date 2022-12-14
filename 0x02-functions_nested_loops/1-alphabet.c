@@ -4,17 +4,17 @@
  *
  * Return: Always 0.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 
 
 	{
-		_putchar(ch);
+		_putchar(c);
 		_putchar('\n');
 
+		c++;
 	}
-	ch++;
 }
