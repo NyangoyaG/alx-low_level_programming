@@ -1,17 +1,17 @@
-#include "main.h"
+nclude "main.h"
 
 /**
- * int mul(int a, int b) - multiplication
- * 
- * @a first integer
- *
- * @b secong integer
- *
- * Return: product of the two multiplied integers
- */
-int mul(int a, int b);
+*mul - multiplies 2 nums
+*
+* @a: first param
+*
+* @b: second param
+*
+* Return: something
+*
+*/
+
+int mul(int a, int b)
 {
-	int product;
-	product = a * b;
-	return (product)
+	return (a * b);		
 }
