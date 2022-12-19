@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - update pointer value to 98
- * @n: parameter to be provided
+ * @n: parameter
  * Return: Always 0 (Success)
  */
 
