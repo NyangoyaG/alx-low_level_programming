@@ -1,9 +1,10 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * puts_half - Function that prints half of a string
- * 
- * @str: provided string
+ * puts_half - print half of a string
+ *
+ * @str: string
  *
  * Return: Always 0 (Success)
  */
@@ -28,3 +29,5 @@ void puts_half(char *str)
 
 	_putchar('\n');
 }
+
+
