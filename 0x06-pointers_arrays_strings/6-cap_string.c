@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * cap_string - capitalizing every first letter of a word in a string
+ * cap_string - capitalizes every first letter of a word in a string
  * separators of words are: space, tabulation
  * new line
  * @s: POinter to string
