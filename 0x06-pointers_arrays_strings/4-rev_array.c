@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * void reverse_array - Reversing  an array
+ * reverse_array - Reversing  an array
  * @a: Pointer
  * @n: Pointer of elements of an array
  *
