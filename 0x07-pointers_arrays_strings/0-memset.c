@@ -8,13 +8,13 @@
  * @n: The number of bytes to be filled.
  * * Return: Nothing.
  */
-char *_memset(char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int index;
+	unsigned int i;
 	unsigned char *memory = s, value = c;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
+	for (index = 0; i < n; i++)
+		imemory[i] = value;
 
 	return (memory);
 }
