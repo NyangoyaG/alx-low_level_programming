@@ -3,28 +3,28 @@
 
 /**
 * _strpbrk - return pointer to byte in s that matches a byte in accept
-* @s: search string
-* @accept: target
+* @s: string to search
+* @accept: target matches
 * Return: pointer to index of string at first occurence
 */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int m = 0, n;
+	int x = 0, y;
 
-	while (s[m] != '\0')
+	while (s[x] != '\0')
 	{
-		for (n = 0; accept[n] != '\0'; n++)
+		for (y = 0; accept[y] != '\0'; y++)
 		{
-			if (s[m] == accept[n])
+			if (s[x] == accept[y])
 			{
-				s = &s[m];
+				s = &s[x];
 				return (s);
 			}
 
 		}
 
-	m++;
+	x++;
 	}
 
 	return (NULL);
