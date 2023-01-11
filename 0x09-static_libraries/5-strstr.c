@@ -8,5 +8,5 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	Return 0;
+	return (0);
 }

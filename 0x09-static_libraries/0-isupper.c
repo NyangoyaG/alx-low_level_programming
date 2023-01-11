@@ -2,10 +2,10 @@
 
 /**
  * _isupper - prototype
- * @c: parameter
+ * @c: parameteii
  * Return: 0 or 1
  */
 int _isupper(int c)
 {
-	Return 0;
+	return (0);
 }

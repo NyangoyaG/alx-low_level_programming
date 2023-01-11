@@ -7,5 +7,5 @@
  */
 int _isalpha(int c)
 {
-	Return 0;
+	return (0);
 }

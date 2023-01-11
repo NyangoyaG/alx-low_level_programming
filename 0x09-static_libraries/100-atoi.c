@@ -7,5 +7,5 @@
  */
 int _atoi(char *s)
 {
-	Return 0;
+	return (0);
 }

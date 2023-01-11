@@ -2,10 +2,12 @@
 
 /**
  * _memset - prototype
- * @c: parameter
+ * @s: parameter
+ * @b: parameter
+ * @n: parameter
  * Return: 0 or 1
  */
-int _memset(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	Return 0;
+	return (0);
 }

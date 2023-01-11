@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * _memcpy - prototype
@@ -7,7 +7,7 @@
  * @n: parameter
  * Return: 0 or 1
  */
-char *_memcpy(char *dest, char *src, insigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	Return 0;
+	return (0);
 }
