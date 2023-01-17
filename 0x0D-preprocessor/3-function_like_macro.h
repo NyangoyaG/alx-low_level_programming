@@ -1,11 +1,5 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
+#ifndef _FUNCTION_LIKE_MACRO_
+#define _FUNCTION_LIKE_MACRO_
 
-/*
- * File: 3-function_like_macro.h
- * Description: Header file
- */
-
-#define ABS(x) ((x) < 0 ? (-x) : (x))
-
+#define ABS(X) ((X < (0)) ? ((X) * (-1)) : (X))
 #endif
